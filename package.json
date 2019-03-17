@@ -1,0 +1,21 @@
+{
+  "name": "sap-ui5",
+  "version": "1.0.0",
+  "description": "sap ui5",
+  "main": "index.js",
+  "scripts": {
+    "start": "ui5 serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openui5/sap.m": "^1.60.0",
+    "@openui5/sap.ui.core": "^1.60.0",
+    "@openui5/sap.ui.layout": "^1.60.0",
+    "@openui5/themelib_sap_belize": "^1.60.0"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^1.2.0"
+  }
+}
