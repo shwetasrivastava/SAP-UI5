@@ -13,7 +13,6 @@ sap.ui.define(
         }
       },
       init: function() {
-        console.log("heelloo");
         // call the init function of the parent
         UIComponent.prototype.init.apply(this, arguments);
         var sCurrentLocale = sap.ui
