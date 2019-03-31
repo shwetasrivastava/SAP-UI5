@@ -9,10 +9,15 @@ sap.ui.define(
     "use strict";
     return Controller.extend("sap.ui.demo.walkthrough.controller.App", {
       onInit: function() {
+        var sCurrentLocale = sap.ui
+          .getCore()
+          .getConfiguration()
+          .getLanguage();
         // set data model on view
         var oData = {
           recipient: {
-            name: "World"
+            name: "World",
+            lang: sCurrentLocale
           }
         };
         var oModel = new JSONModel(oData);
