@@ -35,6 +35,9 @@ sap.ui.define(
         this.setModel(i18nModel, "i18n");
         // set dialog
         this._helloDialog = new HelloDialog(this.getRootControl());
+
+        // create the views based on the url/hash
+        this.getRouter().initialize();
       },
 
       exit: function() {
