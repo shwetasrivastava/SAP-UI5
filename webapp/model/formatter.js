@@ -5,6 +5,7 @@ sap.ui.define([], function() {
       var resourceBundle = this.getView()
         .getModel("i18n")
         .getResourceBundle();
+      console.log(resourceBundle);
       switch (sStatus) {
         case "A":
           return resourceBundle.getText("invoiceStatusA");
